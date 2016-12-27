@@ -20,7 +20,7 @@ APIFactory specification
                    
                    return self.response_factory.ok(data={'action': 'Retrieve', 'uid': uid})
                 
-                return self.response_fectory.ok({'action': 'List'})
+                return self.response_factory.ok({'action': 'List'})
             
             def post(self):
                 req_data = self.request.json
